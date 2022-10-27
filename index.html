@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="container">
+        <a class="logo" href="#"><img src="img/logo.svg" alt="logo"></a>
+        <nav>
+            <div class="nav-el"><a class="nav-el-link" href="#hero">Домой</a></div>
+            <div class="nav-el"><a class="nav-el-link" href="#features">Особенности</a></div>
+            <div class="nav-el"><a class="nav-el-link" href="#benefits">Преимущества</a></div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero container" id="hero">
+            <div class="hero-content">
+                <div class="hero-image"><img class="hero-img" src="img/hero1.jpg" alt="hero"></div>
+                <div class="hero-about">
+                    <div class="hero-title">Разработано 2000+ приложений</div>
+                    <div class="hero-subtitle">Для вашего удобства мы разработали множество приложений для вашего бизнеса и команды, которые доступны 
+                        в любое время суток</div>
+                    <button class="hero-btn">Присоединяйтесь</button>
+                </div>
+            </div>
+            <div class="hero-dots">
+                <span class="hero-dot active-dot"></span>
+                <span class="hero-dot"></span>
+                <span class="hero-dot"></span>
+            </div>
+        </section>
+        <section class="features container" id="features">
+            <!-- NON DYNAMIC -->
+            <!-- <div class="feature-item">
+                <img class="feature-marker" src="img/marker.svg" alt="marker">
+                <div class="feature-text">
+                    <div class="feature-header">Для бизнеса</div>
+                    <div class="feature-about">Помогаем руководителям и командам колл-центров создать полный цикл по поддержке клиентов и
+                        организовать контроль качества</div>
+                </div>
+            </div>
+            <div class="feature-item">
+                <img class="feature-marker" src="img/marker.svg" alt="marker">
+                <div class="feature-text">
+                    <div class="feature-header">Для колл-центров</div>
+                    <div class="feature-about">Помогаем руководителям и командам колл-центров создать полный цикл по поддержке клиентов и
+                        организовать контроль качества</div>
+                </div>
+            </div>
+            <div class="feature-item">
+                <img class="feature-marker" src="img/marker.svg" alt="marker" height="44" width="44">
+                <div class="feature-text">
+                    <div class="feature-header">Облачные хранилища</div>
+                    <div class="feature-about">Разрабатываем локальные защищенные
+                        корпоративные хранилища, а также осуществляем
+                        поддержку на протяжении всего времени
+                        пользования</div>
+                </div>
+            </div> -->
+
+            <div class="feature-headers">
+                <div class="feature-header feature-header-active">Для бизнеса</div>
+                <div class="feature-header">Для колл-центров</div>
+                <div class="feature-header">Облачные хранилища</div>
+            </div>
+            <div class="feature-about">
+                Создаем кастомизированные программы и сервисы для развития управленческих команд в российских и международных компаниях
+            </div>
+        </section>
+        <section class="benefits container" id="benefits">
+            <h2 class="benefits-header">Преимущества</h2>
+            <div class="benefits-list">
+                <div class="benefit-item">
+                    <img class="benefit-image" src="img/benefit1.jpg" alt="benefit">
+                    <div class="benefit-name">Поддержка 24/7</div>
+                    <div class="benefit-about">Вы можете положиться на нашу круглосуточную
+                        поддержку, которая решит любой вопрос в течении часа</div>
+                </div>
+                <div class="benefit-item">
+                    <img class="benefit-image" src="img/benefit2.jpg" alt="benefit">
+                    <div class="benefit-name">Гарантия возврата</div>
+                    <div class="benefit-about">Если вам не понравится сервис, мы вернем вам
+                        полную стоимость в течении 30-дневного периода</div>
+                </div>
+                <div class="benefit-item">
+                    <img class="benefit-image" src="img/benefit3.jpg" alt="benefit">
+                    <div class="benefit-name">Удобство и простота</div>
+                    <div class="benefit-about">Все наши сервисы и приложения интуитивно понятны
+                        для пользователей всех уровней</div>
+                </div>
+            </div>
+        </section>
+    </main>
+        <footer class="container">
+            <div class="copyright">2000-2022 © System</div>
+            <div class="socials">
+                <a href="#" class="link-social"><img src="img/social=facebook.jpg" alt="facebook"></a>
+                <a href="#" class="link-social"><img src="img/social=twitter.jpg" alt="twitter"></a>
+                <a href="#" class="link-social"><img src="img/social=instagram.jpg" alt="instagram"></a>
+            </div>
+        </footer>
+    <script src="main.js"></script>
+</body>
+</html>
